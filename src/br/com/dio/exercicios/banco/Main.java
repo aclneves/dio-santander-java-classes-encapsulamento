@@ -13,7 +13,7 @@ public class Main {
         ContaBancaria contaBancaria = criarConta();
 
 
-        int option = -1;
+        int option;
         do {
             System.out.println("===Escolha uma das opções: ===");
             System.out.println("1 - Consultar saldo");
