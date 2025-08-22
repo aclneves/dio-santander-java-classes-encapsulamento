@@ -74,7 +74,7 @@ public class Main {
         System.out.println("Insira o nome do pet: ");
 
         if (scanner.hasNextLine()) {
-            scanner.nextLine(); // Descarta linha vazia do buffer
+            scanner.nextLine();
         }
 
         String name = scanner.nextLine().trim();
